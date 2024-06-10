@@ -6,7 +6,7 @@ const router = express.Router();
 const PORT = process.env.PORT || 5001;
 
 router.get('/', cors(), (req, res) => {
-  res.json({ message: 'Hola Render!' });
+  res.json({ message: 'Whatsup Render!' });
 });
 
 app.use('/', router);
